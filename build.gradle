@@ -14,4 +14,5 @@ dependencies {
     compile 'org.scala-lang:scala-library:2.11.7'
     compile 'org.apache.camel:camel-kafka:2.16.2'
     compile 'org.apache.camel:camel-cassandraql:2.16.2'
+    compile 'org.apache.camel:camel-jackson:2.16.2'
 }
