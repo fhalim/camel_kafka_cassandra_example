@@ -1,0 +1,17 @@
+group 'net.fawad'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'scala'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.7'
+    compile 'org.apache.camel:camel-kafka:2.16.2'
+    compile 'org.apache.camel:camel-cassandraql:2.16.2'
+}
